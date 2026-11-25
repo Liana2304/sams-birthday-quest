@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Sam's Birthday Quest</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+    <div class="screen-grain"></div>
+
+    <main class="game">
+
+        <header class="game-header">
+            <div class="game-logo" aria-label="Sam's Birthday Quest">
+                <span>SB</span>
+                <strong>QUEST</strong>
+            </div>
+
+            <div class="mission-status">
+                <span class="status-light"></span>
+                <span id="statusText">Classified mission</span>
+            </div>
+        </header>
+
+        <section
+            id="gameScreen"
+            class="game-screen cinematic-mode"
+            aria-live="polite"
+        >
+            <div
+                class="cinematic-backdrop"
+                aria-hidden="true"
+            ></div>
+
+            <div
+                class="cinematic-stage"
+                aria-hidden="true"
+            >
+                <div class="road-glow"></div>
+
+                <img
+                    id="introCar"
+                    class="intro-car"
+                    src="Neon-reflected black sports coupé.png"
+                    alt=""
+                >
+            </div>
+
+            <div
+                id="cinematicGate"
+                class="cinematic-gate"
+            >
+                <p class="mission-label">
+                    Birthday operation · Level 29
+                </p>
+
+                <h1 class="gate-title">
+                    Classified birthday file
+                </h1>
+
+                <button
+                    id="launchCinematic"
+                    class="primary-button"
+                    type="button"
+                >
+                    Start the engine
+                </button>
+
+                <p class="small-message">
+                    Sound on · Headphones recommended
+                </p>
+            </div>
+
+            <div
+                id="questIntro"
+                class="intro-content intro-content-hidden"
+            >
+                <p class="mission-label">
+                    Birthday operation · Level 29
+                </p>
+
+                <h1>
+                    Sam's
+                    <span>Birthday Quest</span>
+                </h1>
+
+                <p class="two-worlds-title">
+                    Builder of Two Worlds
+                </p>
+
+                <p class="intro-text">
+                    One British man. Several questionable decisions.
+                    An unreasonable number of kebabs.
+                </p>
+
+                <p class="classified-message">
+                    A highly classified adventure created especially
+                    for Sam.
+                </p>
+
+                <button
+                    id="startButton"
+                    class="primary-button"
+                    type="button"
+                >
+                    Begin the mission
+                </button>
+
+                <p class="small-message">
+                    Pick what you’d do in each mission. See it through to the end.
+                </p>
+            </div>
+        </section>
+
+        <footer class="game-footer">
+            <span>Birthday Intelligence Agency</span>
+            <span>File № SAM-029</span>
+        </footer>
+
+    </main>
+
+    <div
+        id="notification"
+        class="notification"
+        role="status"
+    ></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
