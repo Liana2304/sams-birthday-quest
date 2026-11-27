@@ -692,7 +692,7 @@ function renderMagicCard() {
 
                 <div class="magic-card-art">
     <img
-        src="Constructor mágico frente a aldea francesa.png"
+        src="sam-master-builder.png"
         alt="Sam holding building plans beside his unfinished house in a French village, with an England patch on his sleeve."
         style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; position: relative; z-index: 1;"
     >
